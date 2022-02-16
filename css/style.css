@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+  ---Orange: hsl(26, 100%, 55%);
+  ---Paleorange: hsl(25, 100%, 94%);
+  ---Defualtfont: 16px;
+  /* Natural  */
+  ---Veryvarkblue: hsl(220, 13%, 13%);
+  ---Darkgrayishblue: hsl(219, 9%, 45%);
+  ---Grayishblue: hsl(220, 14%, 75%);
+  ---Lightgrayishblue: hsl(223, 64%, 98%);
+  ---White: hsl(0, 0%, 100%);
+  ---Black: hsl(0, 0%, 0%);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.d-f{
+    display: flex;
+}
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    position: relative;
+}
+.hamburger{
+    display: none;
+}
+header{
+    background: var(---White);
+    padding: 10px 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+.cart-profile{
+    gap: 45px;
+    align-items: center;
+}
+.cart-profile>img{
+    height: 30px;
+}
+.nav-container{
+    gap: 30px;
+}
+ul.nav-links{
+    list-style: none;
+    gap: 20px;
+}
+.nav-item a{
+    text-decoration: none;
+    font-weight: 400;
+    color: var(---Darkgrayishblue);
+
+}
+    .profile-wrapper{
+        height: 60px;
+        width: 60px;
+        background-color: red;
+        border-radius: 50%;
+    }
+    .user-profile{
+        max-width: 60px;
+        max-height: 60px;
+    }
+
+    /* middle */
+    .img-mid-short{
+        height: 300px;
+        width: 300px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    .img-sort{
+        height: 72px;
+        border-radius: 10px;
+        width: 72px;
+        margin: 1px;
+    }
+    .middle-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+        gap: 70px;
+        margin-top: 70px;
+
+    }
+
+    /* helper class  */
+
+    .d-f2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .d-f2 h6{
+        color: var(---Orange);
+    }
+    .d-f2 h5{
+        color: var(---Darkgrayishblue);
+    }
+    .btn-digit{
+        display: flex;
+        margin-top: 30px;
+        gap: 10px;
+    }
+    .btn-digit button{
+        padding: 0 10px;
+        border: none;
+        color: var(---Orange);
+        background-color: var(---Lightgrayishblue);
+        border-radius: 7px;
+    }
+    .img-zero{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        background-color: var(---Lightgrayishblue);
+        padding: 5px 20px;
+        border-radius: 7px;
+        
+    }
+    .img-cart{
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .cart-1{
+        background:var(---Orange);
+        padding: 5px 30px ;
+        border-radius: 7px
+
+    }
